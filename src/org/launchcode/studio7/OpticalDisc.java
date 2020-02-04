@@ -10,7 +10,7 @@ public interface OpticalDisc {
 
     void readDiscData();
 
-    void writeDiscData();
+    void writeDiscData(String name, String contents);
 
     void getDiscInfo();
 
